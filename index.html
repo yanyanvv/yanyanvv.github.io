@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Yanyan Wang | AI Strategist and Writer of FutureTech with Yanyan</title>
+<meta name="description" content="Yanyan Wang is an AI strategist who helps businesses and people use AI more effectively. She writes FutureTech with Yanyan, a newsletter on the business of AI: models, chips, and data centers.">
+<link rel="canonical" href="https://yanyanvv.github.io/">
+<meta name="author" content="Yanyan Wang">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#FFFFFF">
+
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Yanyan Wang">
+<meta property="og:title" content="Yanyan Wang | AI Strategist and Writer of FutureTech with Yanyan">
+<meta property="og:description" content="Yanyan Wang is an AI strategist who helps businesses and people use AI more effectively. She writes FutureTech with Yanyan, a newsletter on the business of AI: models, chips, and data centers.">
+<meta property="og:url" content="https://yanyanvv.github.io/">
+<meta property="og:image" content="https://yanyanvv.github.io/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Yanyan Wang, AI Strategist and writer of FutureTech with Yanyan">
+<meta property="og:locale" content="en_US">
+<meta property="profile:first_name" content="Yanyan">
+<meta property="profile:last_name" content="Wang">
+<meta property="profile:username" content="yanyanvv">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Yanyan Wang | AI Strategist and Writer of FutureTech with Yanyan">
+<meta name="twitter:description" content="AI strategist helping businesses and people use AI more effectively. Writer of FutureTech with Yanyan: the business of AI, models, chips, and data centers.">
+<meta name="twitter:image" content="https://yanyanvv.github.io/assets/og-image.png">
+<meta name="twitter:image:alt" content="Yanyan Wang, AI Strategist and writer of FutureTech with Yanyan">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="/assets/avatar.webp" type="image/webp" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&amp;display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --ink: #232A3D;
+    --muted: #6E7690;
+    --label: #98A0B8;
+    --rule: #E0E5EF;
+    --border: #D5DAE6;
+    --accent: #E76A8B;
+    --accent-bg: #FDF3F6;
+    --sans: 'Helvetica Neue', 'Instrument Sans', Helvetica, Arial, sans-serif;
+    --serif: 'Source Serif 4', Georgia, serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #FFFFFF;
+    color: var(--ink);
+    font-family: var(--serif);
+    text-wrap: pretty;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--ink); }
+  a:hover { color: var(--accent); }
+  img { max-width: 100%; height: auto; }
+
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 0 clamp(20px, 5vw, 56px); }
+  .layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px clamp(32px, 5vw, 72px);
+    padding: clamp(48px, 8vh, 80px) 0 80px;
+  }
+
+  .sidebar { flex: 0 1 240px; }
+  .sidebar figure { margin: 0; }
+  .avatar { display: block; width: 100%; max-width: 200px; border-radius: 50%; }
+  h1 {
+    font-family: var(--sans);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: -0.015em;
+    margin: 20px 0 0;
+  }
+  .role { font-size: 16px; line-height: 24px; margin: 8px 0 0; }
+  .role-sub { font-size: 15px; line-height: 23px; margin: 2px 0 0; }
+  .profile-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .profile-links a { text-decoration: none; color: var(--muted); }
+  .profile-links a:hover { color: var(--accent); }
+
+  main { flex: 1 1 460px; min-width: 0; }
+  .label {
+    font-family: var(--sans);
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--label);
+    margin: 0;
+  }
+  .lede { font-size: 17px; line-height: 29px; max-width: 56ch; margin: 16px 0 0; }
+
+  .stack {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 40px;
+    padding-top: 32px;
+    border-top: 1px solid var(--rule);
+  }
+
+  .entry { display: flex; gap: 16px; align-items: flex-start; margin-top: 16px; }
+  .entry > picture { flex: 0 0 auto; display: block; }
+  .entry-logo {
+    display: block;
+    flex: 0 0 auto;
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .entry-title {
+    font-family: var(--sans);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+  .entry-title a { text-decoration: none; }
+  .entry-desc { font-size: 14px; line-height: 21px; color: var(--muted); margin: 4px 0 0; }
+
+  .pills {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    font-family: var(--sans);
+    font-size: 14px;
+  }
+  .pills a {
+    text-decoration: none;
+    font-weight: 500;
+    padding: 7px 14px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+  }
+  .pills a:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+
+  .list { list-style: none; margin: 16px 0 0; padding: 0; display: flex; flex-direction: column; gap: 16px; }
+
+  footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--rule); }
+  .colophon { font-size: 13px; line-height: 20px; color: var(--label); margin: 0; }
+
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+
+  @media (max-width: 600px) {
+    .avatar { max-width: 132px; }
+  }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://yanyanvv.github.io/#yanyan-wang",
+      "name": "Yanyan Wang",
+      "givenName": "Yanyan",
+      "familyName": "Wang",
+      "alternateName": "yanyanvv",
+      "jobTitle": "AI Strategist",
+      "description": "AI strategist who helps businesses and people use AI more effectively, and writer of FutureTech with Yanyan, a newsletter covering the business of AI: models, chips, and data centers.",
+      "url": "https://yanyanvv.github.io/",
+      "image": "https://yanyanvv.github.io/assets/avatar.png",
+      "knowsAbout": [
+        "Artificial intelligence strategy",
+        "AI models",
+        "AI chips and semiconductors",
+        "Data centers",
+        "The business of AI"
+      ],
+      "sameAs": [
+        "https://github.com/yanyanvv",
+        "https://www.linkedin.com/in/yanyan-wang-a8918378/",
+        "https://futuretechwithyanyan.com/",
+        "https://www.linkedin.com/newsletters/futuretech-with-yanyan-6908907495293632512/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://yanyanvv.github.io/#website",
+      "url": "https://yanyanvv.github.io/",
+      "name": "Yanyan Wang",
+      "inLanguage": "en",
+      "about": { "@id": "https://yanyanvv.github.io/#yanyan-wang" },
+      "publisher": { "@id": "https://yanyanvv.github.io/#yanyan-wang" }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://yanyanvv.github.io/#profile",
+      "url": "https://yanyanvv.github.io/",
+      "name": "Yanyan Wang | AI Strategist and Writer of FutureTech with Yanyan",
+      "isPartOf": { "@id": "https://yanyanvv.github.io/#website" },
+      "mainEntity": { "@id": "https://yanyanvv.github.io/#yanyan-wang" },
+      "primaryImageOfPage": "https://yanyanvv.github.io/assets/og-image.png",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "Newsletter",
+      "@id": "https://futuretechwithyanyan.com/#newsletter",
+      "name": "FutureTech with Yanyan",
+      "url": "https://futuretechwithyanyan.com/",
+      "description": "A newsletter covering the business of AI, including the models, chips, and data centers powering the industry.",
+      "inLanguage": "en",
+      "author": { "@id": "https://yanyanvv.github.io/#yanyan-wang" },
+      "publisher": { "@id": "https://yanyanvv.github.io/#yanyan-wang" }
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "AI Watch",
+      "url": "https://github.com/yanyanvv/ai-watch",
+      "codeRepository": "https://github.com/yanyanvv/ai-watch",
+      "description": "Turns Claude or Codex into an AI industry analyst that creates source-backed reports on material changes across models, compute, capital, and policy.",
+      "author": { "@id": "https://yanyanvv.github.io/#yanyan-wang" }
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Comms and Media Watch",
+      "url": "https://github.com/yanyanvv/comms-media-watch",
+      "codeRepository": "https://github.com/yanyanvv/comms-media-watch",
+      "description": "Turns Claude or Codex into a media and telecom analyst that creates source-backed reports on streaming, broadcast, advertising, and deals.",
+      "author": { "@id": "https://yanyanvv.github.io/#yanyan-wang" }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="layout">
+
+    <aside class="sidebar">
+      <figure>
+        <picture>
+          <source srcset="/assets/avatar.webp" type="image/webp">
+          <img class="avatar" src="/assets/avatar.png" width="400" height="400"
+               alt="Yanyan Wang's avatar, an illustrated panda astronaut floating among stars" fetchpriority="high">
+        </picture>
+      </figure>
+      <h1>Yanyan Wang</h1>
+      <p class="role">AI Strategist</p>
+      <p class="role-sub">Writer of FutureTech with Yanyan</p>
+      <nav class="profile-links" aria-label="Profiles">
+        <a href="https://github.com/yanyanvv" rel="me">GitHub &#8599;</a>
+        <a href="https://www.linkedin.com/in/yanyan-wang-a8918378/" rel="me">LinkedIn &#8599;</a>
+        <a href="https://futuretechwithyanyan.com/" rel="me">Website &#8599;</a>
+      </nav>
+    </aside>
+
+    <main>
+      <section id="about" aria-labelledby="about-label">
+        <h2 class="label" id="about-label">About me</h2>
+        <p class="lede">Yanyan helps businesses and people use AI more effectively. She also writes FutureTech with Yanyan, a newsletter covering the business of AI, including the models, chips, and data centers powering the industry.</p>
+      </section>
+
+      <div class="stack">
+        <section id="blogs" aria-labelledby="blogs-label">
+          <h2 class="label" id="blogs-label">Blogs</h2>
+          <div class="entry">
+            <picture>
+              <source srcset="/assets/futuretech-logo.webp" type="image/webp">
+              <img class="entry-logo" src="/assets/futuretech-logo.png" width="56" height="56"
+                   alt="FutureTech with Yanyan logo" loading="lazy" decoding="async">
+            </picture>
+            <div>
+              <h3 class="entry-title">FutureTech with Yanyan</h3>
+              <p class="entry-desc">The business of AI: models, chips, and data centers.</p>
+              <div class="pills">
+                <a href="https://futuretechwithyanyan.com/">Website &#8599;</a>
+                <a href="https://www.linkedin.com/newsletters/futuretech-with-yanyan-6908907495293632512/">LinkedIn newsletter &#8599;</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-label">
+          <h2 class="label" id="skills-label">Skills</h2>
+          <ul class="list">
+            <li>
+              <h3 class="entry-title"><a href="https://github.com/yanyanvv/ai-watch">AI Watch</a></h3>
+              <p class="entry-desc">Turns Claude or Codex into your AI industry analyst: current, source-backed briefs on models, compute, capital, and policy.</p>
+            </li>
+            <li>
+              <h3 class="entry-title"><a href="https://github.com/yanyanvv/comms-media-watch">Comms and Media Watch</a></h3>
+              <p class="entry-desc">Turns Claude or Codex into your media and telecom analyst: current, source-backed briefs on streaming, broadcast, advertising, and deals.</p>
+            </li>
+            <li>
+              <h3 class="entry-title"><a href="https://github.com/yanyanvv?tab=repositories">All skills Yanyan created</a></h3>
+              <p class="entry-desc">Practical AI skills, on GitHub</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <footer>
+        <p class="colophon">Yanyan Wang &#183; AI Strategist &#183; Last updated <time datetime="2026-08-15">August 2026</time></p>
+      </footer>
+    </main>
+
+  </div>
+</div>
+</body>
+</html>

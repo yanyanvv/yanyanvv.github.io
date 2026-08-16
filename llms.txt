@@ -1,0 +1,29 @@
+# Yanyan Wang
+
+> Yanyan Wang is an AI strategist who helps businesses and people use AI more effectively. She writes FutureTech with Yanyan, a newsletter covering the business of AI, including the models, chips, and data centers powering the industry.
+
+This site is her personal profile page. All content here is public and may be quoted or cited with attribution to Yanyan Wang, https://yanyanvv.github.io/.
+
+## Profile
+
+- Name: Yanyan Wang
+- Role: AI Strategist
+- Also known as: yanyanvv on GitHub
+- Focus areas: AI strategy for businesses, AI models, AI chips and semiconductors, data centers, the business of AI
+
+## Writing
+
+- [FutureTech with Yanyan](https://futuretechwithyanyan.com/): A newsletter on the business of AI, covering the models, chips, and data centers powering the industry.
+- [FutureTech with Yanyan on LinkedIn](https://www.linkedin.com/newsletters/futuretech-with-yanyan-6908907495293632512/): The same newsletter, published as a LinkedIn newsletter.
+
+## Skills and open source
+
+- [AI Watch](https://github.com/yanyanvv/ai-watch): Turns Claude or Codex into an AI industry analyst. Produces current, source-backed briefs on models, compute, capital, and policy.
+- [Comms and Media Watch](https://github.com/yanyanvv/comms-media-watch): Turns Claude or Codex into a media and telecom analyst. Produces current, source-backed briefs on streaming, broadcast, advertising, and deals.
+- [All repositories](https://github.com/yanyanvv?tab=repositories): Everything Yanyan has published on GitHub.
+
+## Links
+
+- [GitHub](https://github.com/yanyanvv)
+- [LinkedIn](https://www.linkedin.com/in/yanyan-wang-a8918378/)
+- [Website](https://futuretechwithyanyan.com/)
